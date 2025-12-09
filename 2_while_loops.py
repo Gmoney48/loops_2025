@@ -1,4 +1,6 @@
 # Given:
+
+
 colors = ["red", "blue", "green", "yellow", "purple"]
 
 # Challenge:
