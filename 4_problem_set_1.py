@@ -7,19 +7,19 @@
 # ### **Problem 1: Print Numbers 1 to 10
 
 # Write a program that prints the numbers from **1 to 10**, each on a new line.
-list = list(range(1,11))
-for number in list:
-    print(number)
+# list = list(range(1,11))
+# for number in list:
+#     print(number)
 
 
-# ### **Problem 2: Sum of Numbers
+# # ### **Problem 2: Sum of Numbers
 
-# Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
-n = int(input("Give a random number. "))
-total_sum = 0
-for number in range(1, n + 1):
-    total_sum += number
-    print(total_sum)
+# # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
+# n = int(input("Give a random number. "))
+# total_sum = 0
+# for number in range(1, n + 1):
+#     total_sum += number
+#     print(total_sum)
 
 
 # ### **Problem 3: Factorial Calculator
@@ -27,8 +27,17 @@ for number in range(1, n + 1):
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
 
 # *(Example: factorial of 5 is 120)
+# n = int(input("Give a number. "))
 
+# def factorial(n):
 
+#     factorial=1
+
+#     for i in range(n):
+#         factorial*=i+1
+
+#     return factorial
+# print(factorial(n))
 # ### **Problem 4: Count Vowels**
 
 # Ask the user for a string. Count and print how many **vowels (a, e, i, o, u)** are in the string.
@@ -37,7 +46,15 @@ for number in range(1, n + 1):
 # ### **Problem 5: Print Even Numbers**
 
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
+n = int(input("Enter a number: "))
+print("Even numbers")
+for number in range(2, n+ 1, 2):
+    print(number)
 
+list_even_numbers = list(range(1, n + 1))
+for number in list_even_numbers:
+    if number % 2 == 0:
+        print(number)
 
 
 # ### **Problem 6: Reverse a String**
